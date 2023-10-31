@@ -60,3 +60,6 @@ export const getFavouriteRecipesByIDs = async (ids: string[]) => {
 
   return { results: json };
 };
+
+
+//Estructura API back
