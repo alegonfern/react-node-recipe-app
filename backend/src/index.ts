@@ -6,7 +6,7 @@ import { PrismaClient } from "@prisma/client";
 
 const app = express();
 const prismaClient = new PrismaClient();
-
+// App en Typescript
 app.use(express.json());
 app.use(cors());
 
